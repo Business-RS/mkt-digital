@@ -1,0 +1,103 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilização do header */
+header {
+    background-size: cover;
+    color: black;
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Estilização dos planos */
+#planos {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+}
+
+.card {
+    border: none;
+}
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+/* Estilização da seção de contato */
+#contato {
+    background-color: rgb(201, 198, 198);
+    color: black;
+    padding: 80px 0;
+}
+
+.btn-success {
+    background-color: #1cb748;
+    border-color: #1cb748;
+}
+
+.btn-success:hover {
+    background-color: #189c42;
+    border-color: #189c42;
+}
+
+/* Estilização dos planos */
+#planos {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s; /* Adiciona uma transição suave */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Aumenta o tamanho do plano em destaque */
+}
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+/* Estilos para a seção da foto pessoal */
+#foto-pessoal {
+    background-color: #c9c6c6;
+    color: gray;
+    padding: 80px 0;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid gray;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Estilização do título */
+h1 {
+    font-size: 2.5em;
+    font-family: 'Montserrat', sans-serif; /* Fonte 'Montserrat' para impacto */
+    font-weight: 700; /* Negrito */
+    color: #e2c496; /* Cor azul */
+    text-transform: uppercase; /* Texto em maiúsculas */
+}
+
+h2 {
+    font-size: 2.5em;
+    font-family: 'Montserrat', sans-serif; /* Fonte 'Montserrat' para impacto */
+    font-weight: 700; /* Negrito */
+    color: #af9154; /* Cor azul */
+    text-transform: uppercase; /* Texto em maiúsculas */
+}
